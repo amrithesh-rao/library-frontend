@@ -1,0 +1,263 @@
+<html>
+<head>
+<title>Home</title>
+<link href="css/font-awesome.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,intial-scale=1 ">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+    margin: 0px;
+}
+span {
+    font-size: 18pt;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+a{
+color:black;
+}
+.Header {
+    background: url(img/header-background.jpg);
+    text-align: center;
+    padding: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: -webkit-xxx-large;
+    background-position: bottom;
+}
+.nav{
+    background: white;
+    text-align: center;
+    padding: 20;
+	margin-bottom:10;
+}
+
+.content {
+    text-align: center;
+    border: 5px solid #eeeeee;
+    padding: 20;
+    width: 20%;
+    margin-right: 10px;
+}
+.mc {
+       border: 5px solid #eeeeee;
+    padding: 20;
+	width:60%;
+}
+.content1 {
+    text-align: center;
+        border: 5px solid #eeeeee;
+    padding: 20;
+	width: 20%;
+	margin-left:10px;
+}
+.Footer {
+    text-align:right;
+    background: #eee;
+    padding: 20;
+    margin-top: 10;
+}
+.anchor{
+border: 1px solid;
+    cursor: pointer;
+    padding: 2%;
+    border-radius: 4px;
+}
+.Comb {
+    display: flex;
+}
+.anchor:hover {
+    background: black;
+    color: white;
+}
+a{
+text-decoration:none;}
+
+a.anch:hover{
+background:black;
+color:white;}
+.carousel-inner img {
+    width: 100%;
+}
+img.facebook {
+    width: 2%;
+    margin-left: 2%;
+}
+img.google {
+    width: 2%;
+}
+@media(max-width:575px){
+  .Header {
+      background: url(img/header-background.jpg);
+      text-align: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      background-position: bottom;
+      box-sizing: border-box;
+      padding: 3%;
+      height: unset;
+  }
+.nav {
+    background: white;
+    text-align: center;
+    padding: 20;
+    margin-bottom: 10;
+    display: flex;
+}
+.Comb {
+    display: flex;
+    height: unset;
+}
+.content {
+    text-align: center;
+    border: 5px solid #eeeeee;
+    padding: 20;
+    width: 20%;
+    margin-right: 10px;
+    display: none;
+}
+.mc {
+    border: 5px solid #eeeeee;
+    padding: unset;
+    width: 100%;
+    margin: 1%;
+    text-align: justify;
+}
+.content1 {
+    text-align: center;
+    border: 5px solid #eeeeee;
+    padding: 20;
+    width: 20%;
+    margin-left: 10px;
+    display: none;
+}
+.Footer {
+    text-align: right;
+    background: #eee;
+    padding: 20px;
+    margin-top: 10;
+}
+img.google {
+    width: 6%;
+}
+img.facebook {
+    width: 6%;
+    margin-left: 2%;
+}
+.about {
+    margin: 2%;
+}
+img.logo {
+    width: 50%;
+}
+}
+</style>
+</head>
+<body>
+<div class="Header"><header><img src="img/logo.png" alt="library" class="logo"></header>
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active anch">Home</a>
+  <a href="biograph.html"class="anch">Biographs</a>
+  <a href="storybook.html"class="anch">Storybooks</a>
+  <a href="poem.html"class="anch">Poems</a>
+  <a href="help.html"class="anch">Help</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="Comb">
+<div class="content">
+		<h3><a href="biograph.html">Biograph</a></h3>
+		<a class="anchor1" href="bowie.html"><p class="anchor">Bowie</p></a>
+		<a class="anchor1" href="einstein.html"><p class="anchor">Einstein</P></a>
+		<a class="anchor1" href="modi.html"><p class="anchor">Modi</p></a>
+		<a class="anchor1" href="barack_obama.html"><p class="anchor">Barack obama</p></a>
+		<br>
+		<br>
+		<h3><a href="storybook.html">Story books</a></h3>
+		<a class="anchor1"href="lion_king.html"><p class="anchor">Lion king</p></a>
+		<a class="anchor1"href="moana.html"><p class="anchor">Moana</p></a>
+		<a class="anchor1"href="story_book_knight.html"><p class="anchor">Story book knight</p></a>
+		<a class="anchor1"href="toy_story.html"><p class="anchor">Toy story</p></a></div>
+	<div class="mc">
+<div class="w3-content w3-display-container" style="max-width: 100%;">
+  <img class="mySlides" src="img/l1.jpeg" style="width:100%">
+  <img class="mySlides" src="img/l2.jpg" style="width:100%">
+  <img class="mySlides" src="img/l3.jpg" style="width:100%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:80%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<div class="about">
+  <p style="text-align:  justify;text-indent: 8%;"><span>L</span>ibrary is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing.It provides physical or digital access to material, and may be a physical building or room, or a virtual space, or both. A library's collection can include books, periodicals, newspapers, manuscripts, films, maps, prints, documents, microform, CDs, cassettes, videotapes, DVDs, Blu-ray Discs, e-books, audiobooks, databases, and other formats. Libraries range in size from a few shelves of books to several million items. In Latin and Greek, the idea of a bookcase is represented by Bibliotheca and Bibliothēkē derivatives of these mean library in many modern languages, e.g. French bibliothèque.</p>
+</div>
+	</div>
+		<div class="content1">
+		<h3><a href="poem.html">Poem</a></h3>
+		<a class="anchor1" href="baal_geeta.html"><p class="anchor">Baalgeeta</p></a>
+		<a class="anchor1"href="rhyme_time.html"><p class="anchor">Rhyme time</p></a>
+		<a class="anchor1"href="sunhare_geeta.html"><p class="anchor">Sunhare geeta</p></a>
+		<a class="anchor1"href="poetry_of_birds.html"><p class="anchor">Poetry of birds</p></a>
+		<br>
+		<br>
+		<h3><a href="help.html">Help</a></h3>
+		<a class="anchor1"href="contact.html"><p class="anchor">Contact</p></a>
+		<a class="anchor1"href="location.html"><p class="anchor">Location</p></a>
+		<a class="anchor1"href="form.html"><p class="anchor">Form</p></a></div>
+	</div>
+  <div class="Footer">
+  <a href="https://www.facebook.com" target="_blank" class="afoot"><i class="fa fa-facebook-f"></i></a>
+  <a href="https://plus.google.com"target="_blank" class="afoot"><i class="fa fa-google-plus"></i></a>
+  <a href="https://www.twitter.com" target="_blank" class="afoot"><i class="fa fa-twitter-square"></i></a>
+  </div></body>
+
+</html>
